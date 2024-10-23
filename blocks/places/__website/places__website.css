@@ -15,8 +15,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-    /* стили для планшета */
+@media screen and (max-width: 1023px) {
+  .places__website {
+    margin-left: 28px;
+  }
 }
 
 @media screen and (max-width: 768px) {

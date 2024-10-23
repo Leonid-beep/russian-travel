@@ -10,3 +10,18 @@
   margin: auto;
   top: 55%; left: 0; right: 0;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .cover__subtitle {
+    top: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}

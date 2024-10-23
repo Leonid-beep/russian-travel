@@ -19,8 +19,14 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-    /* стили для планшета */
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    margin-top: 88px;
+    max-width: calc((720/768)*100%);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
 }
 
 @media screen and (max-width: 768px) {

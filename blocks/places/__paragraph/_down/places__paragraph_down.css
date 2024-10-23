@@ -2,3 +2,17 @@
   margin: 0;
   margin-top: 26px;
 }
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph_down {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}

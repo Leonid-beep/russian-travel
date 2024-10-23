@@ -11,3 +11,17 @@
   margin: 0;
   margin-top: 8px;
 }
+
+@media screen and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}
