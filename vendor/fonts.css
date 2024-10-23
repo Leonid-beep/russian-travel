@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: local('Inter') url('../fonts/Inter-Black.ttf');
-  font-weight: 900;
+    font-family: 'Inter';
+    src: local('Inter') url('../fonts/Inter-Black.ttf');
+    font-weight: 900;
 }
