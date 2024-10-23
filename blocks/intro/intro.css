@@ -1,8 +1,8 @@
 .intro {
-  max-width: 54%;
+  max-width: calc((690/1280)*100%);
   display: flex;
-  align-items: end;
   flex-direction: column;
+  align-items: start;
   margin-top: 92px;
-  margin-left: 11.5625%;
+  margin-left: calc((148/1280)*100%);
 }
