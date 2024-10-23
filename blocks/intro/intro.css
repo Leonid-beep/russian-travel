@@ -24,10 +24,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: calc((288 / 320) * 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+  }
 }

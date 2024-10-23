@@ -8,11 +8,3 @@
     margin-top: 25px;
   }
 }
-
-@media screen and (max-width: 768px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-}

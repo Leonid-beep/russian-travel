@@ -18,10 +18,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+@media screen and (max-width: 767px) {
+  .cover {
+    max-width: calc((320/320)*100%);
+    margin-top: 66px;
+  }
 }

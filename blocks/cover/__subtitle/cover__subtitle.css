@@ -18,10 +18,12 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-    /* стили для широкого смартфона */
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    width: 288px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    top: 60%;
+  }
 }
