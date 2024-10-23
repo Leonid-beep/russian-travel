@@ -4,3 +4,21 @@
   flex-direction: column;
   margin-left: 40px;
 }
+
+@media screen and (max-width: 1279px) {
+  .places__text {
+    margin-left: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}

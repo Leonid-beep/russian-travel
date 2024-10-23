@@ -3,3 +3,21 @@
   height: 740px;
   position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}

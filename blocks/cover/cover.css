@@ -4,3 +4,21 @@
   max-width: calc((1184/1280)*100%);
   margin-top: 92px;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: calc((1024/1024)*100%);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}

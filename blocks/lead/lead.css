@@ -8,3 +8,21 @@
   margin-right: auto;
   margin-top: 48px;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    max-width: calc((928/1024)*100%);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    /* стили для планшета */
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для широкого смартфона */
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+}
